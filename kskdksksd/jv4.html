@@ -7,14 +7,26 @@
 </head>
 <body>
     <script>
-       const intervalo = window.setInterval(()=>{ window.setTimeout(()=>{
-            console.log("Passou 2 segundos");
+       function clicou() {
+            window.open("https://www.youtube.com.br","_blank");
 
+        }
+
+        window.setInterval(()=> {
+            console.log("teste de merda"):
+        }, 3000)
+
+        window.setTimeout(()=>{
+            console.log("Passou 3 segundos")
+        }, 5000); 
+
+        const intervalo = winow.setInterval(()=>{
+            console.log('teste');
         },2000);
-        const intervalo = window.setInterval(()=>{
+
+        window.setTimeout(()=>{
             clearInterval(intervalo);
-            },10000);
+        }, 10000);
     </script>
-    <button>Clique aqui</button>
 </body>
 </html>
