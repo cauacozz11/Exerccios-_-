@@ -1,0 +1,167 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="nome"></p>
+    <button onclick="exibirNome()">Exibir</button>
+    <p id="resultado"></p>
+
+    <script>
+        function exibirNome() {
+        let nomeDigitado = nome.value
+        document.getElementById("resultado").textContent = "Nome" + nomeDigitado;   
+        }
+    </script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="adicionar()">Adicionar</button>
+    <div id="container"></div>
+
+
+    <script>
+        function adicionar() {
+            let novo = document.createElement("h1");
+            novo.textContent = "Item adicionado"
+            document.getElementById("container").appendChild(novo);
+        }
+    </script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="adicionar()" id="but"></button>
+    <div id="exibir"></div>
+
+    <script>
+        function adicionar() {
+        let button = document.createElement("h1")
+        button.textContent = "Um botão pra um bobão apertar"
+        document.getElementById("but").appendChild(button)
+    } 
+   
+    </script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="conteudo">Modo Atual</div>
+    <button onclick="alternarTema()">Alterar o tema</button>
+
+    <script>
+        function alternarTema() {
+            let novo = document.getElementById("conteudo");
+            novo.classList.toggle("dark")
+        }
+    </script>
+
+    <style>
+        .dark {
+            background-color: #333;
+            color: #fff;
+            
+        }
+    </style>
+</body>
+</html> -->
+
+<!-- <button onclick="luz()">Ligar/Desligar Luz</button>
+<div id="lampada">💡</div>
+
+<style>
+.ligada {
+    background-color: yellow;
+}
+</style>
+
+<script>
+function luz() {
+    document.getElementById("lampada").classList.toggle("ligada");
+}
+</script> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="entrada">
+    <button id="confirmar">Confirmar</button>
+    <p id="saida"></p>
+
+    <script>
+        const botao = document.querySelector('button');
+
+      botao.addEventListener('click', function() {
+      alert('Primeira ação!');
+});
+
+botao.addEventListener('click', function() {
+    alert('Segunda ação!');
+});
+    </script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="meuElemento">Texto aqui</div>
+
+    <script>
+        const elemento = document.querySelector('#meuElemento');
+        console.log(elemento);
+    </script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<p id="frase">Texto inicial</p>
+<button onclick="trocarTexto()">Trocar</button>
+
+<script>
+function trocarTexto() {
+  document.getElementById("frase").innerHTML = "Texto alterado!";
+}
+</script>
+</html>

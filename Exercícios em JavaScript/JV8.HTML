@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="Boas-Vindas"></h1>
+    <p id="mensagem">Espero que você esteja muito bem nessa tarde de Domingo. <br> Bom <span id="nomeUsuario"></span></p>
+
+    <script>
+        // Prompt que solicita o nome do usuário
+        let nome = window.prompt("Olá, Qual é o seu Nome?");
+        
+        // Referências aos elementos onde o nome da pessoa será colocado
+        let nomeElemento = document.getElementById("nomeUsuario");
+        let heading = document.getElementById("Boas-Vindas");
+        
+        // Atualiza o conteúdo do <span> no parágrafo
+        nomeElemento.textContent = nome;
+        
+        // Atualiza o conteúdo do <h1> com o nome da pessoa
+        heading.textContent = "Bom " + nome + ", seja Bem-Vindo!";
+        
+    </script>
+</body>
+</html>

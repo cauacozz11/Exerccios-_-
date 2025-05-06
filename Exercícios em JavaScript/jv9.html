@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="geral">
+
+<div class="titulo">
+    <h1 id="saudação"></h1>
+</div>
+
+
+
+<div class="frasess">
+    <h4>Quero saber um pouco mais de você <span id="frase"></span>... Me conte a faculdade que você esta fazendo.</h4>
+</div>
+
+
+
+<div class="botão">
+    <input type="text" name="" id="curso" class="input">
+    <button onclick="cursoFacul()">Clique aqui para aparecer o resultado</button>
+</div>
+
+
+
+<div>
+        <h4 id="mensagemFim"></h4>
+</div>
+    
+
+
+    <script>
+        let nome = window.prompt("Qual é o sue nome?")
+        let heading = document.getElementById("saudação");
+        let frase = document.getElementById("frase");
+
+        heading.textContent =  "Seja muito Bem-Vindo(a) " + nome + "!" ;
+        frase.textContent = nome;
+
+        function cursoFacul() {
+        let faculdade = document.getElementById("curso").value;
+        document.getElementById("mensagemFim").textContent = "Caramba que legal  " + nome + "," + " realmente o curso de " + faculdade + " é muito interessante, vale a pena investir pois é um ramo muito bom!"
+        }
+        
+    </script>
+
+    
+</html>

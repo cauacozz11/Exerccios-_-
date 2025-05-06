@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>Aprendendo a usar o Java Script</h1>
+  <div>
+    <input type="text" id="coloqueNome">
+    <button onclick="mudarNome()">Coloque seu nome para que possomas te desejar Boas Vindas!</button>
+  </div>
+  <p id="mensagem"></p>
+  
+
+
+  <script>
+    function mudarNome() {
+        let nome = document.getElementById("coloqueNome").value;
+        document.getElementById("mensagem").textContent = "Seja Bem-Vindo " + nome + "!";
+    }
+  </script>
+</body>
+</html>
