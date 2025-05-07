@@ -14,4 +14,4 @@ elif media >= 4 and media < 6:
 elif media >= 0 and media < 4:
      print("E, REPROVADO")
 else:
-     print("era entre 0 e 10 animal")       
+     print("era entre 0 e 10 animal")

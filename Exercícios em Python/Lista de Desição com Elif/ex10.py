@@ -16,4 +16,4 @@ elif num3 >= num1 and num3 >= num2:
      if num2 >= num1:
          print("a ordem certa é:", num3,num2,num1)
      else:
-         print("a ordem certa é:", num3,num1,num2)    
+         print("a ordem certa é:", num3,num1,num2)   

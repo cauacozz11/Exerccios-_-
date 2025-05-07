@@ -27,4 +27,4 @@ elif salario > 700 and salario <= 1500:
 elif salario < 1500:
     valor = salario * 0.05
     salario1 =  salario + valor
-    print("Seu salário era: ", salario," Seu percentual de aumento foi de 5%, o valor do seu aumento foi de ", valor, "e seu novo salário é ", salario1)
+    print("Seu salário era: ", salario," Seu percentual de aumento foi de 5%, o valor do seu aumento foi de ", valor, "e seu novo salário é ", salario)

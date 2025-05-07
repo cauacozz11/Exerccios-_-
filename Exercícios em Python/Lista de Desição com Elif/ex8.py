@@ -88,5 +88,3 @@ else:
     print("Essa resposta é inválida")
     
         
-
-    
