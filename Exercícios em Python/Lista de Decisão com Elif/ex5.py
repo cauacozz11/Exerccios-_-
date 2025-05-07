@@ -12,4 +12,4 @@ if soma:
     else: 
         print("é um triângulo escaleno") 
 else:
-    print("esses valores não forma um triângulo")           
+    print("esses valores não forma um triângulo")

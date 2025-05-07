@@ -86,5 +86,3 @@ elif cartao == "SIM":
             print(f"Você comprou {compra}Kg de Picanha, o preço total é de {preco}, você pagou com o cartão tabajara e por isso ganhou 5% de desconto e o preço final é de {final}")                 
 else:
     print("Essa resposta é inválida")
-    
-        

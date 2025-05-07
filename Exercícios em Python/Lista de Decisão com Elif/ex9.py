@@ -9,4 +9,4 @@ elif prod2 < prod1 and prod2 < prod3:
 elif prod3 < prod1 and prod3 < prod2: 
     print(prod3) 
 elif prod1 < prod2 and prod1 < prod3:
-    print(prod1)     
+    print(prod1)

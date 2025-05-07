@@ -28,6 +28,3 @@ else:
         
     elif cent > 0 and  dez == 0 and uni == 0:
         print(f"{cent} centenas")
-        
-     
-                   

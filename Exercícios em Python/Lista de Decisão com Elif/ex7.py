@@ -11,5 +11,3 @@ elif media >= 7:
     print(f"Aprovado com média {media}")
 elif media < 7:
     print(f"Reprovado com média {media}")
-  
-        
