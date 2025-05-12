@@ -7,4 +7,4 @@ contador = 0
 while contador < expo:
     resultado *= base
     contador += 1
-    print(resultado)
+    print(resultado)    
